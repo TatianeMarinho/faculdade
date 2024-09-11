@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <form>
+            <label for="nome"></label>
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+            <label for="idade"></label>
+                <input type="number" name="idade" id="idade" placeholder="Idade">
+            <label for="cargo"></label>
+                <select name="cargo" id="cargo" placeholder="cargo">
+                    <option value="" >selecione...</option>
+                    <option value="desenvolvedor">desenvolvedor</option>
+                    <option value="gerente">gerente</option>
+                </select>
+            <label for="departamento"></label>
+                <input type="text" name="departamento" id="departamento" placeholder="Departamento">
+            <label for="linguagem"></label>
+                <input type="text" name="linguagem" id="linguagem" placeholder="Linguagem">
+
+            <button id="btn">enviar</button>
+        </form>
+
+        <section id="apresentar"></section>
+        <section id="cadastroSucesso"></section>
+        <section id="cadastroErro"></section>
+        <section id="estadoAtual"></section>
+    </main>
+    <script type="module" src="formulario.js"></script>
+</body>
+</html>
